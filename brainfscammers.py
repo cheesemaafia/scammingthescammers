@@ -23,7 +23,7 @@ def randomstr(n):
                 string += arr[random.randint(0, 55)]
         return string
 
-#input here the url 
+#input the url here (watch the accompanying youtube video to learn where to get this data from)
 red_url = 'https://nadiyadigitalshope.link/1.php'
 
 #reading json data
@@ -36,6 +36,7 @@ for name in names:
         password = randomdig(4, 0) + randomstr(4)
 
         requests.post(red_url, allow_redirects = False, data = {
+        #use your own data (watch the accompanying youtube video to learn where to get this data from)
         'username': username,
         'password': password,
         'mobile number': phone
