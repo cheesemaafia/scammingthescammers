@@ -18,9 +18,8 @@ print("DON'T ATTACK LEGITIMATE WEBSITES. \n")
 
 # input the url here (watch the accompanying youtube video to learn where to get this data from)
 original_url = 'https://nadiyadigitalshope.link/1.php'
-suggested_url = "http://127.0.0.1:8000/"
 red_url = input(
-    f"Enter the name of the website to attack/test, example: {original_url} or {suggested_url} \n")
+    f"Enter the name of the website to attack/test, example: {original_url}:\n")
 
 
 def randomdig(n, start):
@@ -41,7 +40,7 @@ def randomstr(n):
     """This function returns a set of random alphabets and special charectars"""
     string = ''
     arr = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#*'
-    for _ in range(n):
+    for i in range(n):
         string += arr[random.randint(0, 55)]
     return string
 
@@ -64,10 +63,10 @@ for name in names:
         })
 
         print(
-            f"Entered {username} with password: {password} and phone {phone} succesfully!")
+            f"Entered {username} with password: {password} and phone: {phone} succesfully!")
     except Exception as e:
         print(e)
-        print("Error")
+        print("Unexpected error!")
 
 # printing the final message
-print("Scammer succesfully brainf***ed")
+print("SCAMMER SUCCESSFULLY BRAINF***ED")
