@@ -13,8 +13,6 @@ print(r'''                                              _J""-.
                                                      
    fsc      ''')
 print("Description: Short script for scamming the scammers with phishing links by brute forcing random data that makes sense. \n")
-print("Welcome, please, only use this to educational propose. \n")
-print("DON'T ATTACK LEGITIMATE WEBSITES. \n")
 
 # input the url here (watch the accompanying youtube video to learn where to get this data from)
 original_url = 'https://nadiyadigitalshope.link/1.php'
