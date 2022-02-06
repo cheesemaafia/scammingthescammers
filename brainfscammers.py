@@ -14,7 +14,7 @@ print(r'''                                              _J""-.
    fsc      ''')
 print("Description: Short script for scamming the scammers with phishing links by brute forcing random data that makes sense. \n")
 print("Welcome, please, only use this to educational propose. \n")
-print("DON'T ATTACK LEGITIM WEBSITES. \n")
+print("DON'T ATTACK LEGITIMATE WEBSITES. \n")
 
 # input the url here (watch the accompanying youtube video to learn where to get this data from)
 original_url = 'https://nadiyadigitalshope.link/1.php'
@@ -54,9 +54,9 @@ for name in names:
     try:
         username = name.lower() + randomdig(4, 0)
         phone = randomdig(9, 9)
-        password = randomdig(4, 0) + randomstr(4)
+        password = randomdig(2, 0) + randomstr(2) + randomdig(2, 0) + randomstr(2)
 
-        requests.post(red_url, allow_redirects=False, data={
+        requests.post(red_url, allow_redirects = False, data = {
             # use your own data (watch the accompanying youtube video to learn where to get this data from)
             'username': username,
             'password': password,
@@ -64,10 +64,10 @@ for name in names:
         })
 
         print(
-            f"Entered {username} with password: {password} and phone {phone} succesfull")
+            f"Entered {username} with password: {password} and phone {phone} succesfully!")
     except Exception as e:
         print(e)
-        print("Error in some petition")
+        print("Error")
 
 # printing the final message
 print("Scammer succesfully brainf***ed")
