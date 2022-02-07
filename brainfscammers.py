@@ -1,4 +1,4 @@
-# TODO: More customizable, threads
+# TODO: Rotate IPs, make this more customizable
 # importing all the required libraries
 import requests
 import json
