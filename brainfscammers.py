@@ -17,7 +17,7 @@ print("Description: Short script for scamming the scammers with phishing links b
 # input the url here (watch the accompanying youtube video to learn where to get this data from)
 original_url = 'https://nadiyadigitalshope.link/1.php'
 red_url = input(
-    f"Enter the name of the website to attack/test, example: {original_url}:\n")
+    f"Enter the url of the website to attack/test: \n")
 
 
 def randomdig(n, start):
