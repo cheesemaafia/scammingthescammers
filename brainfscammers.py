@@ -1,3 +1,6 @@
+#TODO: implement threading to make this much more fast and efficient
+#TODO: make this more customizable
+
 import requests
 import json
 import random
