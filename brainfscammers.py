@@ -24,6 +24,7 @@ def randomstr(n):
                 string += arr[random.randint(0, 55)]
         return string
 
+#enter the url to test/attack here
 red_url = 'https://nadiyadigitalshope.link/1.php'
 
 names = json.loads(open('names.json').read())
