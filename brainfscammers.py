@@ -36,6 +36,6 @@ for name in names:
         'mobile number': phone
         })
 
-        print("Entered " + username + "'s data!")
+        print(f"Entered {username}'s data!")
 
 print("Scammer succesfully brainf***ed")
